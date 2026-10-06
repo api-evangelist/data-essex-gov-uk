@@ -43,7 +43,7 @@ tags:
   - Local Council
   - United Kingdom
 created: '2026-06-04'
-modified: '2026-06-04'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: data-essex-gov-uk:catalog
@@ -67,6 +67,10 @@ apis:
       - type: x-api-endpoint
         url: https://data.essex.gov.uk/api/3/action/status_show
 common:
+  - url: https://blog.essex.gov.uk/blogs
+    type: Blog
+  - url: https://blog.essex.gov.uk/rss.xml
+    type: BlogRSS
   - type: VulnerabilityDisclosure
     url: security/data-essex-gov-uk-vulnerability-disclosure.yml
   - type: DomainSecurity
